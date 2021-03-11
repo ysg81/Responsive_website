@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>반응형 웹 사이트</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/slick.css" />
+		<link rel="stylesheet" href="css/lightbox.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+		
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
+		<!-- Facebook meta tags -->
+		<meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="When Great Minds Don’t Think Alike" />
+		<meta property="og:description" content="How much does culture influence creative thinking?" />
+		<meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+	
+		<!-- twitter meta tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@webstoryboy" />
+		<meta name="twitter:title" content="반응형 사이트 만들기(title)" />
+		<meta name="twitter:description" content="반응형 사이트 만들기(description)." />
+		<meta property="twitter:image" content="http://richclub8.dothome.co.kr/assets/ico/icon.png" />
+
+
+	</head>
+	<body>
+		<!-- header -->
+		<header id="header">
+			<div class="container">
+				<div class="header">
+					<div class="header__menu">
+						<a href="#">Blog</a>
+						<a href="#">Github</a>
+						<a href="#">Webstandard</a>
+					</div>
+                    <div class="header__title">
+                        <h1>Professional Frontend Developer</h1>
+                        <a href="#">gonssdevelop.com</a>
+                    </div>
+					<div class="header__icon">
+						<ul>
+							<li><a href="#"><i class="fab fa-html5"></i><span>HTML5</span></a></li>
+							<li><a href="#"><i class="fab fa-github"></i><span>Github</span></a></li>
+							<li><a href="#" class="facebook"><i class="fab fa-facebook-square"></i><span>Faceboox</span></a></li>
+							<li><a href="#" class="twitter"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- //header -->
+
+		<!-- nav -->
+		<nav id="nav">
+			<div class="container">
+				<div class="toggle">
+					<div class="nav">
+						<h2 class="ir_su">반응형 사이트 전체 메뉴</h2>
+						<div>
+							<h3>HTML Reference</h3>
+							<ol>
+								<li><a href="#">HTML 태그(Tag)</a></li>
+								<li><a href="#">블록 요소/인라인 요소</a></li>
+								<li><a href="#">DTD 선언</a></li>
+								<li><a href="#">언어 속성 설정</a></li>
+								<li><a href="#">HTML title</a></li>
+								<li><a href="#">HTML meta</a></li>
+								<li><a href="#">특수문자</a></li>
+								<li><a href="#">하이퍼 링크</a></li>
+								<li><a href="#">HTML style</a></li>
+								<li><a href="#">HTML html</a></li>
+								<li><a href="#">HTML head</a></li>
+								<li><a href="#">HTML div</a></li>
+								<li><a href="#">HTML colgroup</a></li>
+								<li><a href="#">HTML caption</a></li>
+							</ol>
+						</div>
+						<div>
+							<h3>CSS  Reference</h3>
+							<ol>
+								<li><a href="#">CSS 선택자</a></li>
+								<li><a href="#">CSS 단위</a></li>
+								<li><a href="#">CSS 색상</a></li>
+								<li><a href="#">CSS 선언 방법</a></li>
+								<li><a href="#">상대주소와 절대주소</a></li>
+								<li><a href="#">CSS float</a></li>
+								<li><a href="#">이미지 표현 방법</a></li>
+								<li><a href="#">이미지 스프라이트</a></li>
+								<li><a href="#">IR 효과</a></li>
+								<li><a href="#">이미지 최적화</a></li>
+								<li><a href="#">background-color</a></li>
+								<li><a href="#">border-style</a></li>
+								<li><a href="#">font-size</a></li>
+								<li><a href="#">text-align</a></li>
+							</ol>
+						</div>
+						<div class="last">
+							<h3>Webstandard</h3>
+							<ol>
+								<li><a href="#">웹 표준</a></li>
+								<li><a href="#">웹 접근성</a></li>
+								<li><a href="#">W3C</a></li>
+								<li><a href="#">웹 접근성 연구소</a></li>
+								<li><a href="#">네이버 널리</a></li>
+								<li><a href="#">다음 다룸</a></li>
+								<li><a href="#">Webstandard</a></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- //nav -->
+
+		<!-- article -->
+		<article id="article">
+			<div class="container">
+				<div class="title">
+					<h2>포트폴리오</h2>
+					<a href="#" class="btn"><i class="fas fa-angle-down fa-lg"></i></a>
+					<span class="ir_su">전체 메뉴 보기</span>
+				</div>
+			</div>
+		</article>
+		<!-- //article -->
+
+
+		<main>
+			<!-- content -->
+			<section id="content">
+				<div class="container">
+					<div class="content">
+						<h2 class="ir_su">반응형 사이트 컨텐츠</h2>
+						<section class="content__left">
+							<h3 class="ir_su">반응형 사이트 왼쪽 컨텐츠</h3>
+							<!-- //col1 -->
+							<article class="column col1">
+								<!-- mouse hover -->
+								<h4 class="col__title">Menu</h4>
+								<p class="col__desc">box-shadow를 이용한 mouse hover 효과입니다.</p>
+								<div class="menu">
+									<ul>
+										<li><a href="#">Cafe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+										<li><a href="#">Tutorial <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+										<li><a href="#">WebSite <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+										<li><a href="#">Reference <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+										<li><a href="#">CSS3 <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+										<li><a href="#">HTML5 <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+								<!-- //mouse hover -->
+							</article>
+							<!-- //col2 -->
+							<article class="column col2">
+								<!-- notice -->
+								<h4 class="col__title">Notice</h4>
+								<p class="col__desc">게시판 영역의 한줄 효과와 두줄 효과 게시판입니다.</p>
+								<div class="notice1">
+									<h5>notice1</h5>
+									<ul>
+										<li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+										<li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+										<li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+										<li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+									</ul>
+									<a href="#" class="more">More<i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+								</div>
+								<div class="notice2">
+									<h5>notice2</h5>
+									<ul>
+										<li><a href="#">첫 번째 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+										<li><a href="#">첫 번째 다음 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+										<li><a href="#">세 번째 글 입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+										<li><a href="#">마지막 글 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+									</ul>
+									<a href="#" class="more">More<i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+								</div>
+								<!-- //notice -->
+							</article>
+							<!-- //col3 -->
+							<article class="column col3">
+								<!-- none -->
+								<h4 class="col__title">None</h4>
+								<p class="col__desc">비어있는 영역입니다.</p>
+								<!-- //none -->
+							</article>
+						</section>
+						<section class="content__center">
+							<h3 class="ir_su">반응형 사이트 가운데 컨텐츠</h3>
+							<!-- //col4 -->
+							<article class="column col4">
+								<!-- slider -->
+								<h4 class="col__title">Slick Slider</h4>
+								<p class="col__desc">slick.js를 이용한 이미지 슬라이드 효과 입니다.</p>
+								<div class="slider">
+									<div>
+										<figure>
+											<img src="img/slider01.jpg" alt="이미지1">
+											<figcaption>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드</figcaption>
+										</figure>
+									</div>
+									<div>
+										<figure>
+											<img src="img/slider02.jpg" alt="이미지2">
+											<figcaption>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드</figcaption>
+										</figure>
+									</div>
+									<div>
+										<figure>
+											<img src="img/slider03.jpg" alt="이미지3">
+											<figcaption>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드</figcaption>
+										</figure>
+									</div>
+									<div>
+										<figure>
+											<img src="img/slider04.jpg" alt="이미지4">
+											<figcaption>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드</figcaption>
+										</figure>
+									</div>
+									<div>
+										<figure>
+											<img src="img/slider05.jpg" alt="이미지5">
+											<figcaption>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드</figcaption>
+										</figure>
+									</div>
+								</div>
+								<!-- //slider -->
+							</article>
+							<!-- //col5 -->
+							<article class="column col5">
+								<!-- lightbox -->
+								<h4 class="col__title">Bledn Effect</h4>
+								<p class="col__desc">Background-blend-model과 mix-blend-model</p>
+								<div class="lightbox square">
+									<a href="img/light01_s.jpg"><img src="img/light01.jpg" alt="이미지1"><em>Blur</em></a>
+									<a href="img/light02_s.jpg"><img src="img/light02.jpg" alt="이미지2"><em>Brightness</em></a>
+									<a href="img/light03_s.jpg"><img src="img/light03.jpg" alt="이미지3"><em>Contrast</em></a>
+									<a href="img/light04_s.jpg"><img src="img/light04.jpg" alt="이미지4"><em>Grayscale</em></a>
+									<a href="img/light05_s.jpg"><img src="img/light05.jpg" alt="이미지5"><em>Hur-rotate</em></a>
+									<a href="img/light06_s.jpg"><img src="img/light06.jpg" alt="이미지6"><em>Invert</em></a>
+									<a href="img/light07_s.jpg"><img src="img/light07.jpg" alt="이미지7"><em>Opacity</em></a>
+									<a href="img/light08_s.jpg"><img src="img/light08.jpg" alt="이미지8"><em>Seturate</em></a>
+									<a href="img/light09_s.jpg"><img src="img/light09.jpg" alt="이미지9"><em>Sepia</em></a>
+									<a href="img/light10_s.jpg"><img src="img/light10.jpg" alt="이미지10"><em>Mix</em></a>
+								</div>
+								<!-- //lightbox -->
+							</article>
+							<!-- //col6 -->
+							<article class="column col6">
+								<h4 class="col__title">Video</h4>
+								<p class="col__desc">반응형 영상을 보여주는 영역입니다.</p>
+								<!-- video -->
+									<!-- <video autoplay="autoplay" controls="controls" loop="loop">
+										<source src="img/video.mp4" type="video/mp4" >
+									</video> -->
+									<div class="video">
+										<iframe src="https://www.youtube.com/embed/0-q1KafFCLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+								<!-- //video -->
+							</article>
+						</section>
+						<section class="content__right">
+							<h3 class="ir_su">반응형 사이트 오른쪽 컨텐츠</h3>
+							<!-- //col7 -->
+							<article class="column col7">
+								<h4 class="col__title">Effect1</h4>
+								<p class="col__desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
+								<div class="side1">
+									<figure class="front">
+										<img src="img/side1.jpg" alt="이미지1">
+									</figure>
+									<div class="back">
+										<i class="fa fa-heart" aria-hidden="true"></i>
+									</div>
+								</div>
+							</article>
+							<!-- //col8 -->
+							<article class="column col8">
+								<h4 class="col__title">Effect2</h4>
+								<p class="col__desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
+								<div class="side2">
+									<figure class="front">
+										<img src="img/side2.jpg" alt="이미지2">
+										<figcaption>
+											Hover Effect
+										</figcaption>
+									</figure>
+									<figure class="back">
+										<img src="img/side4.jpg" alt="이미지2">
+										<figcaption>
+											Hover Effect
+										</figcaption>
+									</figure>
+								</div>
+							</article>
+							<!-- //col9 -->
+							<article class="column col9">
+								<h4 class="col__title">Effect3</h4>
+								<p class="col__desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
+								<div class="side3">
+									<figure>
+										<img src="img/side3.jpg" alt="이미지3">
+										<figcaption>
+											<h3>Hover<em>Effect</em></h3>
+										</figcaption>
+									</figure>
+								</div>
+							</article>
+						</section>
+					</div>
+				</div>
+			</section>
+			<!-- //content -->
+		</main>
+
+		<!-- footer -->
+		<footer id="footer">
+			<div class="container">
+				<div class="footer">
+					<ul>
+						<li><a href="#">사이트 도움말</a></li>
+						<li><a href="#">사이트 이용약관</a></li>
+						<li><a href="#">사이트 운영원칙</a></li>
+						<li><a href="#"><strong>개인정보취급방침</strong></a></li>
+						<li><a href="#">책임의 한계와 법적고지</a></li>
+						<li><a href="#">게시중단요청서비스</a></li>
+						<li><a href="#">고객센터</a></li>
+					</ul>
+					<address>
+						Copyright ©
+						<a href="http://webstoryboy.co.kr"><strong>webstoryboy</strong></a>
+						All Rights Reserved.
+					</address>
+				</div>
+			</div>
+		</footer>
+		<!-- //footer -->
+	</body>
+
+	<script src="js/slick.min.js"></script>
+	<script src="js/lightgallery.min.js"></script>
+	<script>
+
+		//라이트 박스
+		$(".lightbox").lightGallery({
+
+		}); 
+
+		//접기 펼치기
+		$(".btn").click(function(e){
+			e.preventDefault();
+			$(".toggle").slideToggle();
+			$(".btn").toggleClass("open")
+
+			if($(".btn").hasClass("open")){
+				//open있을 때
+				$(".btn").find("i").attr("class", "fa fa-angle-up");
+			}else{
+				//open없을 때
+				$(".btn").find("i").attr("class", "fa fa-angle-down");
+			}
+		});
+		// $(window).resize(function(){
+        //     var wWidth = $(window).width();
+        //     if(wWidth < 550){
+        //         $(".toggle").removeAttr("style");
+        //     }
+        // });
+
+		//http://www.facebook.com/sharer.php?u={페이지 제목}&t={페이지링크}
+		//http://twitter.com/intent/tweet?text={페이지 제목}&url={페이지링크}
+		//https://share.naver.com/web/shareView.nhn?url={페이지링크}&title={페이지 제목}
+		//https://plus.google.com/share?url={페이지링크}&t={페이지 제목}
+		
+		$(".facebook").click(function(e){
+			e.preventDefault();
+			window.open('https://facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600'); 
+		});
+		$(".twitter").click(function(e){
+			e.preventDefault();
+			window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
+		});
+
+		$(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        autoplay: false
+                        }
+                }
+            ]
+        });
+	</script>	
+</html>
